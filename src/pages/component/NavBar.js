@@ -42,14 +42,14 @@ const NavBar = () => {
           </Navbar>
         </div>
         <div>
-          {/* <Switch> */}
+          <Container>
             <Routes>
               <Route path="/" element={<Home/>}/>
               <Route path="/program" element={<Program/>}/>
               <Route path="/courses" element={<Course/>}/>
               <Route path="/curriculum" element={<Curriculum/>}/>
             </Routes>
-          {/* </Switch> */}
+          </Container>
         </div>
       </Router>
     </>

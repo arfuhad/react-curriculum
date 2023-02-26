@@ -67,9 +67,13 @@ const Program = () => {
   return (
     <>
       <Row>
-      <div>
-        <h2>Program</h2>
-      </div>
+        <Col xs={1}>
+          <div>
+            <h2>Program</h2>
+          </div>
+        </Col>
+        <Col xs={9}>
+        </Col>
       </Row>
       <div>
         <Row>
